@@ -1,19 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:scrabble/spacers/exercise_one.dart';
 
 class PlayScreen extends StatelessWidget {
   const PlayScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Box();
-  }
-}
-
-class Box extends StatelessWidget {
-  const Box({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(width: 100, height: 100, color: Colors.blue);
+    return ExerciseOne();
+    // return ExerciseTwo();
+    // return ExerciseThree();
+    // return ExerciseFour();
   }
 }
