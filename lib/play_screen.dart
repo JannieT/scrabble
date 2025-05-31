@@ -6,5 +6,10 @@ class PlayScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
-  }
+  
+
+void main() {
+  runApp(ScrabbleApp());
 }
+
+
