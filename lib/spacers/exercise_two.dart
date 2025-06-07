@@ -9,3 +9,59 @@ class ExerciseTwo extends StatelessWidget {
     return const Box();
   }
 }
+
+class Box extends StatelessWidget {
+  const Box({super.key});
+
+  @override
+  
+    return Column(
+      children: [
+        Spacer(), /
+        Row(
+          children: [
+            Spacer(),
+            greenBox(),
+            Spacer(flex: 2),
+            greenBox(),
+            Spacer(),
+          ],
+        ),
+
+        Spacer(),
+
+        Row(
+          children: [
+            greenBox(),
+            Spacer(),
+            greenBox(),
+          ],
+        ),
+
+        Spacer(),
+
+  
+        Row(
+          children: [
+            Spacer(),
+            greenBox(),
+            Spacer(flex: 2),
+            greenBox(),
+            Spacer(),
+          ],
+        ),
+
+        Spacer(), 
+      ],
+    );
+  }
+
+  Widget greenBox() {
+    return Container(
+      width: 40,
+      height: 40,
+      color: Colors.green,
+    );
+  }
+}
+

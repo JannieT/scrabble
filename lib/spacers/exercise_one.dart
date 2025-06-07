@@ -8,4 +8,12 @@ class ExerciseOne extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Box();
   }
-}
+Row(
+  children: [
+    Spacer(flex: 2), 
+    Container(width: 100, height: 100, color: Colors.green),
+    Spacer(flex: 1), 
+    Container(width: 100, height: 100, color: Colors.blue),
+    Spacer(flex: 2), 
+  ],
+)
